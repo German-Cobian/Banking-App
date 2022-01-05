@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useSelector, useDispatch } from 'react-redux'
 import { bindActionCreators } from "redux"
-import { actionCreators } from "./state/index"
+import { actionCreators } from "./state/action-creators/index"
 
 function App() {
   //const state = useSelector((state) => state);
