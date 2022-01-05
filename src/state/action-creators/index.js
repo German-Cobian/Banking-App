@@ -1,17 +1,1 @@
-export const depositMoney = (amount) => {
-  return (dispatch) => {
-    dispatch({
-      type: "deposit",
-      payload: amount
-    })
-  }
-}
-
-export const withdrawMoney = (amount) => {
-  return (dispatch) => {
-    dispatch({
-      type: "amount",
-      payload: amount
-    })
-  }
-}
+export * as actionCreators from "./accountActions"
