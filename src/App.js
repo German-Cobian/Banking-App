@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="App">
       <h1>{account}</h1>
-      <button onClick={() => depositMoney(1000)}>Deposit</button>
-      <button onClick={() => withdrawMoney(1000)}>Withdraw</button>
+      <button onClick={() => depositMoney(100)}>Deposit</button>
+      <button onClick={() => withdrawMoney(100)}>Withdraw</button>
     </div>
   );
 }
