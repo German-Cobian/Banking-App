@@ -18,10 +18,23 @@ To get a local copy up and running follow these simple example steps:
 
 * Open your terminal - Windows: Win + R, then type cmd | Mac: Command + space, then type Terminal
 * Navigate to a directory of your choosing using the cd command
-* Run this command in your OS terminal: git clone git@github.com:German-Cobian/Banking-App.git to get a copy of the project
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Banking-App.git` to get a copy of the project
 * Navigate to the project's directory using the cd command
-* In the clone folder, run npm install and then npm run build
+* In the clone folder, run `npm install` and then `npm run build`
 * To fire up the server run npm start
+
+### Breakdown of Tutorial
+
+The feature branches of the tutorial present versions of the app where specific components or functions
+were implemented. 
+
+* `reducers-store` Implements a single component "cakeContainer" which allows the user to be able to buy one unit of cake at a click and see the inventory of cake diminished in consequence.
+
+* `providers-selectorHook` Implements a two component "cakeContainer" and "iceCreamContainer" which allow the user to be able to buy one unit of their choice of either cake or ice cream at a click and see the inventory of cake or ice cream diminished in consequence.
+
+* `action-creators` Implements logger middleware into the app so that actions are neatly console-logged.
+
+* `apply-Middleware` Implements Devtool Extensions that permits efficient app redux fucntions trouble shooting.
 
 
 ## Authors
