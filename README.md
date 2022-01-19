@@ -34,7 +34,7 @@ were implemented.
 
 * `action-creators` Implements the action creators so as to dispatch the  withdraw and deposit actions / Implements bindActionCreators method to do just what the name suggests as well as the useDispatch hook so that these actions are passed on to the reducers and update store in accordance with the actions.
 
-* `apply-Middleware` Import thunk middleware to help redux work with asynchronous requests and applies it to store
+* `apply-middleWare` Import thunk middleware to help redux work with asynchronous requests and applies it to store
 
 
 ## Authors
