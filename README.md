@@ -18,10 +18,23 @@ To get a local copy up and running follow these simple example steps:
 
 * Open your terminal - Windows: Win + R, then type cmd | Mac: Command + space, then type Terminal
 * Navigate to a directory of your choosing using the cd command
-* Run this command in your OS terminal: git clone git@github.com:German-Cobian/Banking-App.git to get a copy of the project
+* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Banking-App.git` to get a copy of the project
 * Navigate to the project's directory using the cd command
-* In the clone folder, run npm install and then npm run build
+* In the clone folder, run `npm install` and then `npm run build`
 * To fire up the server run npm start
+
+### Breakdown of Tutorial
+
+The feature branches of the tutorial present versions of the app where specific components or functions
+were implemented. 
+
+* `reducers-store` Implements the reducers for deposit and withdrawal and combines them into a single reducer / Implements store which receives the combined reducers.
+
+* `providers-selectorHook` Imports the provider so that every single component can access store / Implements the useSelector hook so as to acces the state in the store.
+
+* `action-creators` Implements the action creators so as to dispatch the  withdraw and deposit actions / Implements bindActionCreators method to do just what the name suggests as well as the useDispatch hook so that these actions are passed on to the reducers and update store in accordance with the actions.
+
+* `apply-Middleware` Import thunk middleware to help redux work with asynchronous requests and applies it to store
 
 
 ## Authors
