@@ -28,13 +28,13 @@ To get a local copy up and running follow these simple example steps:
 The feature branches of the tutorial present versions of the app where specific components or functions
 were implemented. 
 
-* `reducers-store` Implements a single component "cakeContainer" which allows the user to be able to buy one unit of cake at a click and see the inventory of cake diminished in consequence.
+* `reducers-store` Implements the reducers for deposit and withdrawal and combines them into a single reducer / Implements store which receives the combined reducers.
 
-* `providers-selectorHook` Implements a two component "cakeContainer" and "iceCreamContainer" which allow the user to be able to buy one unit of their choice of either cake or ice cream at a click and see the inventory of cake or ice cream diminished in consequence.
+* `providers-selectorHook` Imports the provider so that every single component can access store / Implements the useSelector hook so as to acces the state in the store.
 
-* `action-creators` Implements logger middleware into the app so that actions are neatly console-logged.
+* `action-creators` Implements the action creators so as to dispatch the  withdraw and deposit actions / Implements bindActionCreators method to do just what the name suggests as well as the useDispatch hook so that these actions are passed on to the reducers and update store in accordance with the actions.
 
-* `apply-Middleware` Implements Devtool Extensions that permits efficient app redux fucntions trouble shooting.
+* `apply-Middleware` Import thunk middleware to help redux work with asynchronous requests and applies it to store
 
 
 ## Authors
