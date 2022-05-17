@@ -10,7 +10,7 @@ A how-to on building a basic React-Redux app. The user can deposit a hundred dol
 ![Start at 400](/public/400.png?raw=true "Start at 400")
 ![Withdraw 100](/public/300.png?raw=true "Withdraw 100")
 
-The project is based on the tutorial video [Curso intensivo de React Redux (con ganchos)](https://www.youtube.com/watch?v=9jULHSe41ls) by "Laith Harb."
+The project is based on the tutorial video [React Redux (with Hooks) Crash Course](https://www.youtube.com/watch?v=9jULHSe41ls) by "Laith Harb."
 
 
 ## Built With
@@ -70,7 +70,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-The project is based on the tutorial video [Curso intensivo de React Redux (con ganchos)](https://www.youtube.com/watch?v=9jULHSe41ls) by "Laith Harb."
+The project is based on the tutorial video [React Redux (with Hooks) Crash Course](https://www.youtube.com/watch?v=9jULHSe41ls) by "Laith Harb."
 
 
 ## 📝 License
