@@ -5,7 +5,6 @@ import { bindActionCreators } from "redux"
 import { actionCreators } from "./state/action-creators/index"
 
 function App() {
-  //const state = useSelector((state) => state);
   const account = useSelector((state) => state.account)
 
   const dispatch = useDispatch();
