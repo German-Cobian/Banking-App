@@ -1,13 +1,25 @@
 # Banking-App
 
-A how-to on building a basic React-Redux app. The user can deposit or withdraw a hundred dollars at a time from a bank account. The project is based on the tutorial video [Curso intensivo de React Redux (con ganchos)](https://www.youtube.com/watch?v=9jULHSe41ls) by "Laith Harb."
+A how-to on building a basic React-Redux app. The user can deposit a hundred dollars at a time to a purported bank account,
+
+![Start at 300](/public/300.png?raw=true "Start at 300")
+![Deposit 100](/public/400.png?raw=true "Deposit 100")
+
+...or withdraw the same amount.
+
+![Start at 400](/public/400.png?raw=true "Start at 400")
+![Withdraw 100](/public/300.png?raw=true "Withdraw 100")
+
+The project is based on the tutorial video [Curso intensivo de React Redux (con ganchos)](https://www.youtube.com/watch?v=9jULHSe41ls) by "Laith Harb."
 
 
 ## Built With
 
-* Semantic HTML
+* HTML
+* CSS
 * Javascript
-* Linters ((stylelint, eslint))
+* React
+* Redux
 
 
 ## Getting Started
@@ -42,7 +54,7 @@ were implemented.
 👤 **German Cobian**
 
 * GitHub: [@German-Cobian](https://github.com/German-Cobian)
-* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
+* Twitter: [@GermanCobian2](https://twitter.com/GermanCobian2)
 * LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian/)
 
 
@@ -58,9 +70,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-* Laith Harb channel on YouTube
+The project is based on the tutorial video [Curso intensivo de React Redux (con ganchos)](https://www.youtube.com/watch?v=9jULHSe41ls) by "Laith Harb."
 
 
 ## 📝 License
 
 This project is [MIT](https://github.com/German-Cobian/Banking-App/blob/main/LICENSE) licensed.
+
+
