@@ -1,5 +1,6 @@
 # Banking-App
 
+
 A how-to on building a basic React-Redux app. The user can deposit a hundred dollars at a time to a purported bank account,
 
 ![Start at 300](/public/300.png?raw=true "Start at 300")
@@ -76,5 +77,3 @@ The project is based on the tutorial video [React Redux (with Hooks) Crash Cours
 ## 📝 License
 
 This project is [MIT](https://github.com/German-Cobian/Banking-App/blob/main/LICENSE) licensed.
-
-
